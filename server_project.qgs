@@ -1,0 +1,1667 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis saveUser="elies" saveUserFull="Elies Bertran" saveDateTime="2021-07-29T16:57:37" projectname="" version="3.16.7-Hannover">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+      <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+      <srsid>2104</srsid>
+      <srid>25831</srid>
+      <authid>EPSG:25831</authid>
+      <description>ETRS89 / UTM zone 31N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer name="v_edit_arc" expanded="1" source="dbname='gw35' host=minebots.hopto.org port=5433 user='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table=&quot;ud_dev&quot;.&quot;v_edit_arc&quot; (the_geom)" legend_split_behavior="0" id="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15" providerKey="postgres" patch_size="-1,-1" legend_exp="" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer name="v_ext_plot" expanded="1" source="dbname='gw35' host=minebots.hopto.org port=5433 user='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ud_dev&quot;.&quot;v_ext_plot&quot; (the_geom)" legend_split_behavior="0" id="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2" providerKey="postgres" patch_size="-1,-1" legend_exp="" checked="Qt::Checked">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15</item>
+      <item>v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings maxScale="0" intersection-snapping="0" enabled="0" tolerance="12" unit="1" scaleDependencyMode="0" minScale="0" mode="2" type="1" self-snapping="0">
+    <individual-layer-settings>
+      <layer-setting maxScale="0" units="1" id="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15" enabled="0" tolerance="12" minScale="0" type="1"/>
+      <layer-setting maxScale="0" units="1" id="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2" enabled="0" tolerance="12" minScale="0" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>418275.18968390207737684</xmin>
+      <ymin>4576078.24514153320342302</ymin>
+      <xmax>419673.11530493595637381</xmax>
+      <ymax>4578156.09049669560045004</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+        <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2104</srsid>
+        <srid>25831</srid>
+        <authid>EPSG:25831</authid>
+        <description>ETRS89 / UTM zone 31N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="v_edit_arc" open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="v_ext_plot" open="true" drawingOrder="-1" showFeatureCount="0" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <main-annotation-layer refreshOnNotifyMessage="" autoRefreshTime="0" refreshOnNotifyEnabled="0" type="annotation" autoRefreshEnabled="0">
+    <id>Annotations_75f68545_1c89_4491_af1e_6b2e300b00c6</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername></layername>
+    <srs>
+      <spatialrefsys>
+        <wkt></wkt>
+        <proj4></proj4>
+        <srsid>0</srsid>
+        <srid>0</srid>
+        <authid></authid>
+        <description></description>
+        <projectionacronym></projectionacronym>
+        <ellipsoidacronym></ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys>
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <layerOpacity>1</layerOpacity>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer wkbType="LineString" refreshOnNotifyMessage="" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" maxScale="0" minScale="100000000" autoRefreshEnabled="0" simplifyLocal="1" readOnly="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" geometry="Line">
+      <extent>
+        <xmin>418308.4736272600130178</xmin>
+        <ymin>4576237.72665109019726515</ymin>
+        <xmax>419639.83136157802073285</xmax>
+        <ymax>4578106.61798823997378349</ymax>
+      </extent>
+      <id>v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15</id>
+      <datasource>dbname='gw35' host=minebots.hopto.org port=5433 user='postgres' password='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_dev"."v_edit_arc" (the_geom)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>v_edit_arc</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+          <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2104</srsid>
+          <srid>25831</srid>
+          <authid>EPSG:25831</authid>
+          <description>ETRS89 / UTM zone 31N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+            <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>2104</srsid>
+            <srid>25831</srid>
+            <authid>EPSG:25831</authid>
+            <description>ETRS89 / UTM zone 31N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationField="" startField="" fixedDuration="0" endField="enddate" startExpression="" endExpression="" enabled="0" durationUnit="min" mode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" force_rhr="0" alpha="1" type="line" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleLine">
+              <prop v="0" k="align_dash_pattern"/>
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="dash_pattern_offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="dash_pattern_offset_map_unit_scale"/>
+              <prop v="MM" k="dash_pattern_offset_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="229,182,54,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="tweak_dash_pattern_on_corners"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="arc_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="node_1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nodetype_1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="custom_y1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="elev1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="custom_elev1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sys_elev1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sys_y1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="r1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="z1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="node_2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nodetype_2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="y2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="custom_y2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="elev2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="custom_elev2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sys_elev2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sys_y2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="r2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="z2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="slope" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arc_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sys_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="arccat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="matcat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cat_shape" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cat_geom1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="cat_geom2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="width" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="epa_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="expl_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="macroexpl_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="sector_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="macrosector_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="state" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="state_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="annotation" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gis_length" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="custom_length" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inverted_slope" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="observ" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="comment" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dma_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="macrodma_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="soilcat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="function_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="category_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fluid_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location_type" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="workcat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="workcat_id_end" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="builtdate" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="enddate" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="buildercat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ownercat_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="muni_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcode" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="district_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="streetname" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postnumber" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcomplement" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="streetname2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postnumber2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcomplement2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="descript" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="link" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="verified" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="undelete" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label_x" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label_y" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="label_rotation" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="publish" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="inventory" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="uncertain" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="num_value" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tstamp" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="insert_user" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lastupdate" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lastupdate_user" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="workcat_id_plan" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="arc_id"/>
+        <alias index="1" name="" field="code"/>
+        <alias index="2" name="" field="node_1"/>
+        <alias index="3" name="" field="nodetype_1"/>
+        <alias index="4" name="" field="y1"/>
+        <alias index="5" name="" field="custom_y1"/>
+        <alias index="6" name="" field="elev1"/>
+        <alias index="7" name="" field="custom_elev1"/>
+        <alias index="8" name="" field="sys_elev1"/>
+        <alias index="9" name="" field="sys_y1"/>
+        <alias index="10" name="" field="r1"/>
+        <alias index="11" name="" field="z1"/>
+        <alias index="12" name="" field="node_2"/>
+        <alias index="13" name="" field="nodetype_2"/>
+        <alias index="14" name="" field="y2"/>
+        <alias index="15" name="" field="custom_y2"/>
+        <alias index="16" name="" field="elev2"/>
+        <alias index="17" name="" field="custom_elev2"/>
+        <alias index="18" name="" field="sys_elev2"/>
+        <alias index="19" name="" field="sys_y2"/>
+        <alias index="20" name="" field="r2"/>
+        <alias index="21" name="" field="z2"/>
+        <alias index="22" name="" field="slope"/>
+        <alias index="23" name="" field="arc_type"/>
+        <alias index="24" name="" field="sys_type"/>
+        <alias index="25" name="" field="arccat_id"/>
+        <alias index="26" name="" field="matcat_id"/>
+        <alias index="27" name="" field="cat_shape"/>
+        <alias index="28" name="" field="cat_geom1"/>
+        <alias index="29" name="" field="cat_geom2"/>
+        <alias index="30" name="" field="width"/>
+        <alias index="31" name="" field="epa_type"/>
+        <alias index="32" name="" field="expl_id"/>
+        <alias index="33" name="" field="macroexpl_id"/>
+        <alias index="34" name="" field="sector_id"/>
+        <alias index="35" name="" field="macrosector_id"/>
+        <alias index="36" name="" field="state"/>
+        <alias index="37" name="" field="state_type"/>
+        <alias index="38" name="" field="annotation"/>
+        <alias index="39" name="" field="gis_length"/>
+        <alias index="40" name="" field="custom_length"/>
+        <alias index="41" name="" field="inverted_slope"/>
+        <alias index="42" name="" field="observ"/>
+        <alias index="43" name="" field="comment"/>
+        <alias index="44" name="" field="dma_id"/>
+        <alias index="45" name="" field="macrodma_id"/>
+        <alias index="46" name="" field="soilcat_id"/>
+        <alias index="47" name="" field="function_type"/>
+        <alias index="48" name="" field="category_type"/>
+        <alias index="49" name="" field="fluid_type"/>
+        <alias index="50" name="" field="location_type"/>
+        <alias index="51" name="" field="workcat_id"/>
+        <alias index="52" name="" field="workcat_id_end"/>
+        <alias index="53" name="" field="builtdate"/>
+        <alias index="54" name="" field="enddate"/>
+        <alias index="55" name="" field="buildercat_id"/>
+        <alias index="56" name="" field="ownercat_id"/>
+        <alias index="57" name="" field="muni_id"/>
+        <alias index="58" name="" field="postcode"/>
+        <alias index="59" name="" field="district_id"/>
+        <alias index="60" name="" field="streetname"/>
+        <alias index="61" name="" field="postnumber"/>
+        <alias index="62" name="" field="postcomplement"/>
+        <alias index="63" name="" field="streetname2"/>
+        <alias index="64" name="" field="postnumber2"/>
+        <alias index="65" name="" field="postcomplement2"/>
+        <alias index="66" name="" field="descript"/>
+        <alias index="67" name="" field="link"/>
+        <alias index="68" name="" field="verified"/>
+        <alias index="69" name="" field="undelete"/>
+        <alias index="70" name="" field="label"/>
+        <alias index="71" name="" field="label_x"/>
+        <alias index="72" name="" field="label_y"/>
+        <alias index="73" name="" field="label_rotation"/>
+        <alias index="74" name="" field="publish"/>
+        <alias index="75" name="" field="inventory"/>
+        <alias index="76" name="" field="uncertain"/>
+        <alias index="77" name="" field="num_value"/>
+        <alias index="78" name="" field="tstamp"/>
+        <alias index="79" name="" field="insert_user"/>
+        <alias index="80" name="" field="lastupdate"/>
+        <alias index="81" name="" field="lastupdate_user"/>
+        <alias index="82" name="" field="workcat_id_plan"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="arc_id"/>
+        <default applyOnUpdate="0" expression="" field="code"/>
+        <default applyOnUpdate="0" expression="" field="node_1"/>
+        <default applyOnUpdate="0" expression="" field="nodetype_1"/>
+        <default applyOnUpdate="0" expression="" field="y1"/>
+        <default applyOnUpdate="0" expression="" field="custom_y1"/>
+        <default applyOnUpdate="0" expression="" field="elev1"/>
+        <default applyOnUpdate="0" expression="" field="custom_elev1"/>
+        <default applyOnUpdate="0" expression="" field="sys_elev1"/>
+        <default applyOnUpdate="0" expression="" field="sys_y1"/>
+        <default applyOnUpdate="0" expression="" field="r1"/>
+        <default applyOnUpdate="0" expression="" field="z1"/>
+        <default applyOnUpdate="0" expression="" field="node_2"/>
+        <default applyOnUpdate="0" expression="" field="nodetype_2"/>
+        <default applyOnUpdate="0" expression="" field="y2"/>
+        <default applyOnUpdate="0" expression="" field="custom_y2"/>
+        <default applyOnUpdate="0" expression="" field="elev2"/>
+        <default applyOnUpdate="0" expression="" field="custom_elev2"/>
+        <default applyOnUpdate="0" expression="" field="sys_elev2"/>
+        <default applyOnUpdate="0" expression="" field="sys_y2"/>
+        <default applyOnUpdate="0" expression="" field="r2"/>
+        <default applyOnUpdate="0" expression="" field="z2"/>
+        <default applyOnUpdate="0" expression="" field="slope"/>
+        <default applyOnUpdate="0" expression="" field="arc_type"/>
+        <default applyOnUpdate="0" expression="" field="sys_type"/>
+        <default applyOnUpdate="0" expression="" field="arccat_id"/>
+        <default applyOnUpdate="0" expression="" field="matcat_id"/>
+        <default applyOnUpdate="0" expression="" field="cat_shape"/>
+        <default applyOnUpdate="0" expression="" field="cat_geom1"/>
+        <default applyOnUpdate="0" expression="" field="cat_geom2"/>
+        <default applyOnUpdate="0" expression="" field="width"/>
+        <default applyOnUpdate="0" expression="" field="epa_type"/>
+        <default applyOnUpdate="0" expression="" field="expl_id"/>
+        <default applyOnUpdate="0" expression="" field="macroexpl_id"/>
+        <default applyOnUpdate="0" expression="" field="sector_id"/>
+        <default applyOnUpdate="0" expression="" field="macrosector_id"/>
+        <default applyOnUpdate="0" expression="" field="state"/>
+        <default applyOnUpdate="0" expression="" field="state_type"/>
+        <default applyOnUpdate="0" expression="" field="annotation"/>
+        <default applyOnUpdate="0" expression="" field="gis_length"/>
+        <default applyOnUpdate="0" expression="" field="custom_length"/>
+        <default applyOnUpdate="0" expression="" field="inverted_slope"/>
+        <default applyOnUpdate="0" expression="" field="observ"/>
+        <default applyOnUpdate="0" expression="" field="comment"/>
+        <default applyOnUpdate="0" expression="" field="dma_id"/>
+        <default applyOnUpdate="0" expression="" field="macrodma_id"/>
+        <default applyOnUpdate="0" expression="" field="soilcat_id"/>
+        <default applyOnUpdate="0" expression="" field="function_type"/>
+        <default applyOnUpdate="0" expression="" field="category_type"/>
+        <default applyOnUpdate="0" expression="" field="fluid_type"/>
+        <default applyOnUpdate="0" expression="" field="location_type"/>
+        <default applyOnUpdate="0" expression="" field="workcat_id"/>
+        <default applyOnUpdate="0" expression="" field="workcat_id_end"/>
+        <default applyOnUpdate="0" expression="" field="builtdate"/>
+        <default applyOnUpdate="0" expression="" field="enddate"/>
+        <default applyOnUpdate="0" expression="" field="buildercat_id"/>
+        <default applyOnUpdate="0" expression="" field="ownercat_id"/>
+        <default applyOnUpdate="0" expression="" field="muni_id"/>
+        <default applyOnUpdate="0" expression="" field="postcode"/>
+        <default applyOnUpdate="0" expression="" field="district_id"/>
+        <default applyOnUpdate="0" expression="" field="streetname"/>
+        <default applyOnUpdate="0" expression="" field="postnumber"/>
+        <default applyOnUpdate="0" expression="" field="postcomplement"/>
+        <default applyOnUpdate="0" expression="" field="streetname2"/>
+        <default applyOnUpdate="0" expression="" field="postnumber2"/>
+        <default applyOnUpdate="0" expression="" field="postcomplement2"/>
+        <default applyOnUpdate="0" expression="" field="descript"/>
+        <default applyOnUpdate="0" expression="" field="link"/>
+        <default applyOnUpdate="0" expression="" field="verified"/>
+        <default applyOnUpdate="0" expression="" field="undelete"/>
+        <default applyOnUpdate="0" expression="" field="label"/>
+        <default applyOnUpdate="0" expression="" field="label_x"/>
+        <default applyOnUpdate="0" expression="" field="label_y"/>
+        <default applyOnUpdate="0" expression="" field="label_rotation"/>
+        <default applyOnUpdate="0" expression="" field="publish"/>
+        <default applyOnUpdate="0" expression="" field="inventory"/>
+        <default applyOnUpdate="0" expression="" field="uncertain"/>
+        <default applyOnUpdate="0" expression="" field="num_value"/>
+        <default applyOnUpdate="0" expression="" field="tstamp"/>
+        <default applyOnUpdate="0" expression="" field="insert_user"/>
+        <default applyOnUpdate="0" expression="" field="lastupdate"/>
+        <default applyOnUpdate="0" expression="" field="lastupdate_user"/>
+        <default applyOnUpdate="0" expression="" field="workcat_id_plan"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" unique_strength="1" exp_strength="0" notnull_strength="1" field="arc_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="code"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="node_1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="nodetype_1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="y1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="custom_y1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="elev1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="custom_elev1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sys_elev1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sys_y1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="r1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="z1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="node_2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="nodetype_2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="y2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="custom_y2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="elev2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="custom_elev2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sys_elev2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sys_y2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="r2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="z2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="slope"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="arc_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sys_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="arccat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="matcat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="cat_shape"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="cat_geom1"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="cat_geom2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="width"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="epa_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="expl_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="macroexpl_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="sector_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="macrosector_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="state"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="state_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="annotation"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="gis_length"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="custom_length"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="inverted_slope"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="observ"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="comment"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="dma_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="macrodma_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="soilcat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="function_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="category_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="fluid_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="location_type"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="workcat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="workcat_id_end"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="builtdate"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="enddate"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="buildercat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="ownercat_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="muni_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postcode"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="district_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="streetname"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postnumber"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postcomplement"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="streetname2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postnumber2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postcomplement2"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="descript"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="link"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="verified"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="undelete"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="label"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="label_x"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="label_y"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="label_rotation"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="publish"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="inventory"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="uncertain"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="num_value"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="tstamp"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="insert_user"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="lastupdate"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="lastupdate_user"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="workcat_id_plan"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="arc_id" exp="" desc=""/>
+        <constraint field="code" exp="" desc=""/>
+        <constraint field="node_1" exp="" desc=""/>
+        <constraint field="nodetype_1" exp="" desc=""/>
+        <constraint field="y1" exp="" desc=""/>
+        <constraint field="custom_y1" exp="" desc=""/>
+        <constraint field="elev1" exp="" desc=""/>
+        <constraint field="custom_elev1" exp="" desc=""/>
+        <constraint field="sys_elev1" exp="" desc=""/>
+        <constraint field="sys_y1" exp="" desc=""/>
+        <constraint field="r1" exp="" desc=""/>
+        <constraint field="z1" exp="" desc=""/>
+        <constraint field="node_2" exp="" desc=""/>
+        <constraint field="nodetype_2" exp="" desc=""/>
+        <constraint field="y2" exp="" desc=""/>
+        <constraint field="custom_y2" exp="" desc=""/>
+        <constraint field="elev2" exp="" desc=""/>
+        <constraint field="custom_elev2" exp="" desc=""/>
+        <constraint field="sys_elev2" exp="" desc=""/>
+        <constraint field="sys_y2" exp="" desc=""/>
+        <constraint field="r2" exp="" desc=""/>
+        <constraint field="z2" exp="" desc=""/>
+        <constraint field="slope" exp="" desc=""/>
+        <constraint field="arc_type" exp="" desc=""/>
+        <constraint field="sys_type" exp="" desc=""/>
+        <constraint field="arccat_id" exp="" desc=""/>
+        <constraint field="matcat_id" exp="" desc=""/>
+        <constraint field="cat_shape" exp="" desc=""/>
+        <constraint field="cat_geom1" exp="" desc=""/>
+        <constraint field="cat_geom2" exp="" desc=""/>
+        <constraint field="width" exp="" desc=""/>
+        <constraint field="epa_type" exp="" desc=""/>
+        <constraint field="expl_id" exp="" desc=""/>
+        <constraint field="macroexpl_id" exp="" desc=""/>
+        <constraint field="sector_id" exp="" desc=""/>
+        <constraint field="macrosector_id" exp="" desc=""/>
+        <constraint field="state" exp="" desc=""/>
+        <constraint field="state_type" exp="" desc=""/>
+        <constraint field="annotation" exp="" desc=""/>
+        <constraint field="gis_length" exp="" desc=""/>
+        <constraint field="custom_length" exp="" desc=""/>
+        <constraint field="inverted_slope" exp="" desc=""/>
+        <constraint field="observ" exp="" desc=""/>
+        <constraint field="comment" exp="" desc=""/>
+        <constraint field="dma_id" exp="" desc=""/>
+        <constraint field="macrodma_id" exp="" desc=""/>
+        <constraint field="soilcat_id" exp="" desc=""/>
+        <constraint field="function_type" exp="" desc=""/>
+        <constraint field="category_type" exp="" desc=""/>
+        <constraint field="fluid_type" exp="" desc=""/>
+        <constraint field="location_type" exp="" desc=""/>
+        <constraint field="workcat_id" exp="" desc=""/>
+        <constraint field="workcat_id_end" exp="" desc=""/>
+        <constraint field="builtdate" exp="" desc=""/>
+        <constraint field="enddate" exp="" desc=""/>
+        <constraint field="buildercat_id" exp="" desc=""/>
+        <constraint field="ownercat_id" exp="" desc=""/>
+        <constraint field="muni_id" exp="" desc=""/>
+        <constraint field="postcode" exp="" desc=""/>
+        <constraint field="district_id" exp="" desc=""/>
+        <constraint field="streetname" exp="" desc=""/>
+        <constraint field="postnumber" exp="" desc=""/>
+        <constraint field="postcomplement" exp="" desc=""/>
+        <constraint field="streetname2" exp="" desc=""/>
+        <constraint field="postnumber2" exp="" desc=""/>
+        <constraint field="postcomplement2" exp="" desc=""/>
+        <constraint field="descript" exp="" desc=""/>
+        <constraint field="link" exp="" desc=""/>
+        <constraint field="verified" exp="" desc=""/>
+        <constraint field="undelete" exp="" desc=""/>
+        <constraint field="label" exp="" desc=""/>
+        <constraint field="label_x" exp="" desc=""/>
+        <constraint field="label_y" exp="" desc=""/>
+        <constraint field="label_rotation" exp="" desc=""/>
+        <constraint field="publish" exp="" desc=""/>
+        <constraint field="inventory" exp="" desc=""/>
+        <constraint field="uncertain" exp="" desc=""/>
+        <constraint field="num_value" exp="" desc=""/>
+        <constraint field="tstamp" exp="" desc=""/>
+        <constraint field="insert_user" exp="" desc=""/>
+        <constraint field="lastupdate" exp="" desc=""/>
+        <constraint field="lastupdate_user" exp="" desc=""/>
+        <constraint field="workcat_id_plan" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer wkbType="MultiPolygon" refreshOnNotifyMessage="" autoRefreshTime="0" type="vector" labelsEnabled="0" simplifyDrawingTol="1" maxScale="0" minScale="100000000" autoRefreshEnabled="0" simplifyLocal="1" readOnly="0" simplifyMaxScale="1" simplifyDrawingHints="1" simplifyAlgorithm="0" refreshOnNotifyEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" geometry="Polygon">
+      <extent>
+        <xmin>418327.70520833297632635</xmin>
+        <ymin>4576127.71764998976141214</ymin>
+        <xmax>419591.76799999101785943</xmax>
+        <ymax>4578071.41101191006600857</ymax>
+      </extent>
+      <id>v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2</id>
+      <datasource>dbname='gw35' host=minebots.hopto.org port=5433 user='postgres' password='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_dev"."v_ext_plot" (the_geom)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>v_ext_plot</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+          <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2104</srsid>
+          <srid>25831</srid>
+          <authid>EPSG:25831</authid>
+          <description>ETRS89 / UTM zone 31N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+            <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+            <srsid>2104</srsid>
+            <srid>25831</srid>
+            <authid>EPSG:25831</authid>
+            <description>ETRS89 / UTM zone 31N</description>
+            <projectionacronym>utm</projectionacronym>
+            <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="">postgres</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <temporal durationField="" startField="" fixedDuration="0" endField="" startExpression="" endExpression="" enabled="0" durationUnit="min" mode="0" accumulate="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" force_rhr="0" alpha="1" type="fill" clip_to_extent="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="225,89,137,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="plot_code" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="muni_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postcode" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="streetaxis_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postnumber" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="complement" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="placement" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="square" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="observ" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="text" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="expl_id" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="plot_code"/>
+        <alias index="2" name="" field="muni_id"/>
+        <alias index="3" name="" field="postcode"/>
+        <alias index="4" name="" field="streetaxis_id"/>
+        <alias index="5" name="" field="postnumber"/>
+        <alias index="6" name="" field="complement"/>
+        <alias index="7" name="" field="placement"/>
+        <alias index="8" name="" field="square"/>
+        <alias index="9" name="" field="observ"/>
+        <alias index="10" name="" field="text"/>
+        <alias index="11" name="" field="expl_id"/>
+      </aliases>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="id"/>
+        <default applyOnUpdate="0" expression="" field="plot_code"/>
+        <default applyOnUpdate="0" expression="" field="muni_id"/>
+        <default applyOnUpdate="0" expression="" field="postcode"/>
+        <default applyOnUpdate="0" expression="" field="streetaxis_id"/>
+        <default applyOnUpdate="0" expression="" field="postnumber"/>
+        <default applyOnUpdate="0" expression="" field="complement"/>
+        <default applyOnUpdate="0" expression="" field="placement"/>
+        <default applyOnUpdate="0" expression="" field="square"/>
+        <default applyOnUpdate="0" expression="" field="observ"/>
+        <default applyOnUpdate="0" expression="" field="text"/>
+        <default applyOnUpdate="0" expression="" field="expl_id"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="3" unique_strength="1" exp_strength="0" notnull_strength="1" field="id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="plot_code"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="muni_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postcode"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="streetaxis_id"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="postnumber"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="complement"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="placement"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="square"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="observ"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="text"/>
+        <constraint constraints="0" unique_strength="0" exp_strength="0" notnull_strength="0" field="expl_id"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="plot_code" exp="" desc=""/>
+        <constraint field="muni_id" exp="" desc=""/>
+        <constraint field="postcode" exp="" desc=""/>
+        <constraint field="streetaxis_id" exp="" desc=""/>
+        <constraint field="postnumber" exp="" desc=""/>
+        <constraint field="complement" exp="" desc=""/>
+        <constraint field="placement" exp="" desc=""/>
+        <constraint field="square" exp="" desc=""/>
+        <constraint field="observ" exp="" desc=""/>
+        <constraint field="text" exp="" desc=""/>
+        <constraint field="expl_id" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions/>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15"/>
+    <layer id="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2"/>
+  </layerorder>
+  <properties>
+    <DefaultStyles>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+    </DefaultStyles>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">2</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7019</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+    </PositionPrecision>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSCrsList type="QStringList">
+      <value>EPSG:25831</value>
+    </WMSCrsList>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSExtent type="QStringList">
+      <value>417302.73</value>
+      <value>4576088.66</value>
+      <value>421104.05</value>
+      <value>4578111.90</value>
+    </WMSExtent>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">65</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString">test_short_name</WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString">test_title</WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString">dev1.bgeo.es/qgisserver</WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Elies Bertran</author>
+    <creation>2021-07-28T12:17:50</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <Bookmarks/>
+  <ProjectViewSettings UseProjectScales="0">
+    <Scales/>
+    <DefaultViewExtent ymax="4578156.09049669560045004" xmax="421439.47124047722900286" xmin="416508.83374836080474779" ymin="4576078.24514153320342302">
+      <spatialrefsys>
+        <wkt>PROJCRS["ETRS89 / UTM zone 31N",BASEGEOGCRS["ETRS89",DATUM["European Terrestrial Reference System 1989",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4258]],CONVERSION["UTM zone 31N",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",3,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9996,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["(E)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["(N)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["unknown"],AREA["Europe - 0°E to 6°E and ETRS89 by country"],BBOX[37,0,82.41,6.01]],ID["EPSG",25831]]</wkt>
+        <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>2104</srsid>
+        <srid>25831</srid>
+        <authid>EPSG:25831</authid>
+        <description>ETRS89 / UTM zone 31N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectTimeSettings timeStep="1" cumulativeTemporalRange="0" timeStepUnit="h" frameRate="1"/>
+  <ProjectDisplaySettings>
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" value="" type="QChar"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="direction_format" value="0" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" value="" type="QChar"/>
+      </Option>
+    </BearingFormat>
+  </ProjectDisplaySettings>
+</qgis>
