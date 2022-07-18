@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis saveUser="elies" version="3.22.8-Białowieża" saveUserFull="Elies Bertran" projectname="" saveDateTime="2022-07-18T17:03:57">
+<qgis saveUser="elies" version="3.22.8-Białowieża" saveUserFull="Elies Bertran" projectname="" saveDateTime="2022-07-18T17:05:52">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -22613,7 +22613,7 @@ def my_form_open(dialog, layer, feature):
     <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
     <WMSServiceTitle type="QString">test_title</WMSServiceTitle>
     <WMSTileBuffer type="int">0</WMSTileBuffer>
-    <WMSUrl type="QString">dev1.bgeo.es/qgisserver</WMSUrl>
+    <WMSUrl type="QString"></WMSUrl>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMTSGrids>
       <CRS type="QStringList"/>
