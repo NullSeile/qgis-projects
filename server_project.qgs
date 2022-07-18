@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveUser="elies" version="3.22.8-Białowieża" saveUserFull="Elies Bertran" saveDateTime="2022-07-18T17:14:29">
+<qgis projectname="" saveUser="elies" version="3.22.8-Białowieża" saveUserFull="Elies Bertran" saveDateTime="2022-07-18T17:17:27">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -178,36 +178,6 @@
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="BASEMAP">
-      <customproperties>
-        <Option/>
-      </customproperties>
-      <layer-tree-group expanded="1" checked="Qt::Checked" name="Address">
-        <customproperties>
-          <Option/>
-        </customproperties>
-        <layer-tree-layer expanded="1" legend_exp="" id="Municipality_15e23259_0f13_41e1_acdb_95d62b3488ef" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Municipality" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='muni_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='0' table=&quot;ud_test&quot;.&quot;ext_municipality&quot; (the_geom)" patch_size="0,0">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" legend_exp="" id="Address_5806e70e_f27c_471f_abf6_6db2928ebedc" checked="Qt::Unchecked" providerKey="postgres" legend_split_behavior="0" name="Address" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_address&quot; (the_geom)" patch_size="0,0">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" legend_exp="" id="Streetaxis_88ee9526_c633_40d6_89eb_0ec168596df5" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Streetaxis" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_streetaxis&quot; (the_geom)" patch_size="0,0">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-        <layer-tree-layer expanded="1" legend_exp="" id="Plot_c4b4d03d_8490_4e11_bda2_d7098656240a" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Plot" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_plot&quot; (the_geom)" patch_size="0,0">
-          <customproperties>
-            <Option/>
-          </customproperties>
-        </layer-tree-layer>
-      </layer-tree-group>
-    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::Unchecked" name="MASTERPLAN">
       <customproperties>
         <Option/>
@@ -262,6 +232,36 @@
           </customproperties>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" legend_exp="" id="Compost_price_5389ae6e_708e_471e_aacc_913934054cbe" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Compost price" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' checkPrimaryKeyUnicity='0' table=&quot;ud_test&quot;.&quot;plan_price_compost&quot;" patch_size="0,0">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="BASEMAP">
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="Address">
+        <customproperties>
+          <Option/>
+        </customproperties>
+        <layer-tree-layer expanded="1" legend_exp="" id="Municipality_15e23259_0f13_41e1_acdb_95d62b3488ef" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Municipality" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='muni_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='0' table=&quot;ud_test&quot;.&quot;ext_municipality&quot; (the_geom)" patch_size="0,0">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" legend_exp="" id="Address_5806e70e_f27c_471f_abf6_6db2928ebedc" checked="Qt::Unchecked" providerKey="postgres" legend_split_behavior="0" name="Address" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_address&quot; (the_geom)" patch_size="0,0">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" legend_exp="" id="Streetaxis_88ee9526_c633_40d6_89eb_0ec168596df5" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Streetaxis" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiLineString checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_streetaxis&quot; (the_geom)" patch_size="0,0">
+          <customproperties>
+            <Option/>
+          </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" legend_exp="" id="Plot_c4b4d03d_8490_4e11_bda2_d7098656240a" checked="Qt::Checked" providerKey="postgres" legend_split_behavior="0" name="Plot" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_plot&quot; (the_geom)" patch_size="0,0">
           <customproperties>
             <Option/>
           </customproperties>
@@ -330,10 +330,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>419234.68696084572002292</xmin>
-      <ymin>4575015.45311087463051081</ymin>
-      <xmax>420632.61258188216015697</xmax>
-      <ymax>4577093.29846602771431208</ymax>
+      <xmin>419254.54229790688259527</xmin>
+      <ymin>4576014.55735917575657368</ymin>
+      <xmax>419604.02370316599262878</xmax>
+      <ymax>4576534.01869796402752399</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -485,30 +485,6 @@
         </legendlayer>
       </legendgroup>
     </legendgroup>
-    <legendgroup checked="Qt::Checked" open="false" name="BASEMAP">
-      <legendgroup checked="Qt::Checked" open="true" name="Address">
-        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Municipality" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile layerid="Municipality_15e23259_0f13_41e1_acdb_95d62b3488ef" isInOverview="0" visible="1"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" checked="Qt::Unchecked" open="true" name="Address" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile layerid="Address_5806e70e_f27c_471f_abf6_6db2928ebedc" isInOverview="0" visible="0"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Streetaxis" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile layerid="Streetaxis_88ee9526_c633_40d6_89eb_0ec168596df5" isInOverview="0" visible="1"/>
-          </filegroup>
-        </legendlayer>
-        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Plot" showFeatureCount="0">
-          <filegroup open="true" hidden="false">
-            <legendlayerfile layerid="Plot_c4b4d03d_8490_4e11_bda2_d7098656240a" isInOverview="0" visible="1"/>
-          </filegroup>
-        </legendlayer>
-      </legendgroup>
-    </legendgroup>
     <legendgroup checked="Qt::Unchecked" open="true" name="MASTERPLAN">
       <legendgroup checked="Qt::Checked" open="true" name="Psector">
         <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Plan psector" showFeatureCount="0">
@@ -556,6 +532,30 @@
         <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Compost price" showFeatureCount="0">
           <filegroup open="true" hidden="false">
             <legendlayerfile layerid="Compost_price_5389ae6e_708e_471e_aacc_913934054cbe" isInOverview="0" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+    </legendgroup>
+    <legendgroup checked="Qt::Checked" open="false" name="BASEMAP">
+      <legendgroup checked="Qt::Checked" open="true" name="Address">
+        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Municipality" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile layerid="Municipality_15e23259_0f13_41e1_acdb_95d62b3488ef" isInOverview="0" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" checked="Qt::Unchecked" open="true" name="Address" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile layerid="Address_5806e70e_f27c_471f_abf6_6db2928ebedc" isInOverview="0" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Streetaxis" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile layerid="Streetaxis_88ee9526_c633_40d6_89eb_0ec168596df5" isInOverview="0" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" checked="Qt::Checked" open="true" name="Plot" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile layerid="Plot_c4b4d03d_8490_4e11_bda2_d7098656240a" isInOverview="0" visible="1"/>
           </filegroup>
         </legendlayer>
       </legendgroup>
