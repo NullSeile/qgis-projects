@@ -22,12 +22,12 @@
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-layer id="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15" patch_size="-1,-1" source="dbname='gw35' host=nullptr.hopto.org port=5432 user='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_edit_arc&quot; (the_geom)" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="postgres" legend_split_behavior="0" name="v_edit_arc">
+    <layer-tree-layer id="v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15" patch_size="-1,-1" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_edit_arc&quot; (the_geom)" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="postgres" legend_split_behavior="0" name="v_edit_arc">
       <customproperties>
         <Option/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer id="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2" patch_size="-1,-1" source="dbname='gw35' host=nullptr.hopto.org port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_plot&quot; (the_geom)" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="postgres" legend_split_behavior="0" name="v_ext_plot">
+    <layer-tree-layer id="v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2" patch_size="-1,-1" source="dbname='gw35' host=localhost port=5432 user='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;ud_test&quot;.&quot;v_ext_plot&quot; (the_geom)" checked="Qt::Checked" legend_exp="" expanded="1" providerKey="postgres" legend_split_behavior="0" name="v_ext_plot">
       <customproperties>
         <Option/>
       </customproperties>
@@ -149,7 +149,7 @@
         <ymax>41.35045012347267601</ymax>
       </wgs84extent>
       <id>v_edit_arc_28f49323_7b83_4dd4_a0c9_debaa8afed15</id>
-      <datasource>dbname='gw35' host=nullptr.hopto.org port=5432 user='postgres' password='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_arc" (the_geom)</datasource>
+      <datasource>dbname='gw35' host=localhost port=5432 user='postgres' password='postgres' sslmode=disable key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_arc" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -1294,7 +1294,7 @@
         <ymax>41.35012823797370629</ymax>
       </wgs84extent>
       <id>v_ext_plot_91c89022_c20e_45b3_88bd_b8f1222dfdb2</id>
-      <datasource>dbname='gw35' host=nullptr.hopto.org port=5432 user='postgres' password='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_plot" (the_geom)</datasource>
+      <datasource>dbname='gw35' host=localhost port=5432 user='postgres' password='postgres' sslmode=disable key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_plot" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
