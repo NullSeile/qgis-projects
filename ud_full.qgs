@@ -676,7 +676,7 @@
   <projectlayers>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_arc_52f24e12_c228_47c2_b347_69b187f2d984</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_arc"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_arc"</datasource>
       <shortname>arc_cat</shortname>
       <keywordList>
         <value></value>
@@ -1451,7 +1451,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_connec_c478157f_493b_462e_addb_2de2fbf4f4da</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_connec"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_connec"</datasource>
       <shortname>connec_cat</shortname>
       <keywordList>
         <value></value>
@@ -1897,7 +1897,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_grate_c32f087c_3368_4aa6_966e_1ff0e19c5894</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_grate"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_grate"</datasource>
       <shortname>grate_cat</shortname>
       <keywordList>
         <value></value>
@@ -2394,7 +2394,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_mat_arc_bba8ab41_f652_4864_95d3_45c7e39b5175</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_arc"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_arc"</datasource>
       <shortname>arc_material_cat</shortname>
       <keywordList>
         <value></value>
@@ -2636,7 +2636,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_mat_grate_3021f691_143d_43b1_b6a3_c4c83c58791b</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_grate"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_grate"</datasource>
       <shortname>grate_material_cat</shortname>
       <keywordList>
         <value></value>
@@ -2861,7 +2861,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_mat_node_78cd77ff_0c52_4719_a447_c588e95b21a3</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_node"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_mat_node"</datasource>
       <shortname>node_material_cat</shortname>
       <keywordList>
         <value></value>
@@ -3086,7 +3086,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>cat_node_612b7617_0e3d_43f8_bffe_e49e3afa89f5</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_node"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."cat_node"</datasource>
       <shortname>node_cat</shortname>
       <keywordList>
         <value></value>
@@ -3584,7 +3584,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35044579911849638</ymax>
       </wgs84extent>
       <id>ext_municipality_7901e95f_4c75_42cb_b520_f89bb2e71ff9</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='muni_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='0' table="ud_test"."ext_municipality" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='muni_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='0' table="ud_test"."ext_municipality" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -3951,7 +3951,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>plan_price_9e588368_c73a_413c_9565_da06d40e509b</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."plan_price"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."plan_price"</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -4142,7 +4142,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>plan_price_compost_ad0d2671_8427_4de0_adce_51edc8a29220</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."plan_price_compost"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='0' table="ud_test"."plan_price_compost"</datasource>
       <shortname>compost_price</shortname>
       <keywordList>
         <value></value>
@@ -4359,7 +4359,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Line" simplifyMaxScale="1" minScale="100000000" wkbType="LineString" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_anl_flow_arc_26e14ed9_441a_401b_8aff_3a83432ac182</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_arc" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_arc" (the_geom)</datasource>
       <shortname>flowtrace_arc</shortname>
       <keywordList>
         <value></value>
@@ -4931,7 +4931,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Point" simplifyMaxScale="1" minScale="100000000" wkbType="Point" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_anl_flow_connec_dedac24e_181f_4b33_9f6e_adb7abb78087</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_connec" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_connec" (the_geom)</datasource>
       <shortname>flowtrace_connec</shortname>
       <keywordList>
         <value></value>
@@ -5422,7 +5422,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Point" simplifyMaxScale="1" minScale="100000000" wkbType="Point" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_anl_flow_gully_c19802c2_4f79_4ac9_ada5_6300ec45e42e</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_gully" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_gully" (the_geom)</datasource>
       <shortname>flowtrace_gully</shortname>
       <keywordList>
         <value></value>
@@ -5902,7 +5902,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Point" simplifyMaxScale="1" minScale="100000000" wkbType="Point" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_anl_flow_node_4d575c87_1bb3_4cfb_9cf4_206d690d4270</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_node" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_anl_flow_node" (the_geom)</datasource>
       <shortname>flowtrace_node</shortname>
       <keywordList>
         <value></value>
@@ -6424,7 +6424,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35045012347267601</ymax>
       </wgs84extent>
       <id>v_edit_arc_20c2fc8b_1eba_4b5b_99c3_1f6836ca8281</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_arc" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_arc" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -9373,7 +9373,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>v_edit_cat_feature_arc_4cd4d71c_df9e_44bf_8911_d4932f930ad2</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_arc"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_arc"</datasource>
       <shortname>f_arc_cat</shortname>
       <keywordList>
         <value></value>
@@ -9680,7 +9680,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>v_edit_cat_feature_connec_507c5448_7822_4bd9_ab7e_24d7b1f11400</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_connec"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_connec"</datasource>
       <shortname>f_connec_cat</shortname>
       <keywordList>
         <value></value>
@@ -9974,7 +9974,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>v_edit_cat_feature_gully_8979adc2_9078_461e_a337_347fb0723b32</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_gully"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_gully"</datasource>
       <shortname>f_gully_cat</shortname>
       <keywordList>
         <value></value>
@@ -10285,7 +10285,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer styleCategories="AllStyleCategories" autoRefreshEnabled="0" type="vector" autoRefreshTime="0" hasScaleBasedVisibilityFlag="0" readOnly="0" maxScale="0" geometry="No geometry" minScale="1e+08" refreshOnNotifyMessage="" legendPlaceholderImage="" refreshOnNotifyEnabled="0" wkbType="NoGeometry">
       <id>v_edit_cat_feature_node_896f1d54_369f_445d_8297_634294e52f3f</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_node"</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_cat_feature_node"</datasource>
       <shortname>f_node_cat</shortname>
       <keywordList>
         <value></value>
@@ -10723,7 +10723,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.34999796148526485</ymax>
       </wgs84extent>
       <id>v_edit_connec_8a7cc13f_d89f_485c_baa6_dea1fcfe3331</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_connec" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_connec" (the_geom)</datasource>
       <shortname>connec</shortname>
       <keywordList>
         <value></value>
@@ -12331,7 +12331,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="1" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Line" simplifyMaxScale="1" minScale="100000000" wkbType="LineString" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_edit_dimensions_f966f7af_448b_41d3_9ac5_c8adf0f785ea</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_dimensions" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_dimensions" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -15071,7 +15071,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35044579911849638</ymax>
       </wgs84extent>
       <id>v_edit_dma_6ef4194d_f9a3_49e1_8179_bbdcc7f6549c</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='dma_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_dma" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='dma_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_dma" (the_geom)</datasource>
       <shortname>dma</shortname>
       <keywordList>
         <value></value>
@@ -15584,7 +15584,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="1" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Point" simplifyMaxScale="1" minScale="1500" wkbType="Point" hasScaleBasedVisibilityFlag="1" legendPlaceholderImage="">
       <id>v_edit_element_e5ea3ac0_d64b_4db9_ba41_01b6ba993917</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='element_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_element" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='element_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_element" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -16404,7 +16404,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35044579911849638</ymax>
       </wgs84extent>
       <id>v_edit_exploitation_79f9ccda_070f_4e89_b991_6f956aec4b36</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='expl_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_exploitation" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='expl_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_exploitation" (the_geom)</datasource>
       <shortname>exploitation</shortname>
       <keywordList>
         <value></value>
@@ -16835,7 +16835,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35014176528421359</ymax>
       </wgs84extent>
       <id>v_edit_gully_2fae9786_ee66_45f2_9da6_d665653031fb</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_gully" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_gully" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -18480,7 +18480,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35021857635206999</ymax>
       </wgs84extent>
       <id>v_edit_link_0c252985_de4f_4df3_a76a_c279ffeffed8</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='link_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_link" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='link_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_link" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -19188,7 +19188,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35045012347267601</ymax>
       </wgs84extent>
       <id>v_edit_node_505585a2_32e2_4c2e_a451_d9becc988d7c</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='node_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_node" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='node_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_node" (the_geom)</datasource>
       <shortname>node</shortname>
       <keywordList>
         <value></value>
@@ -21689,7 +21689,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33776686843234671</ymax>
       </wgs84extent>
       <id>v_edit_plan_psector_4db99134_b512_43f3_8a52_b31af809fd0d</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='psector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_plan_psector" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='psector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_plan_psector" (the_geom)</datasource>
       <shortname>plan_psector</shortname>
       <keywordList>
         <value></value>
@@ -22603,7 +22603,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35044579911849638</ymax>
       </wgs84extent>
       <id>v_edit_sector_d4924986_50a2_4c42_bad8_bfff1644805d</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='sector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_sector" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='sector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_edit_sector" (the_geom)</datasource>
       <shortname>section</shortname>
       <keywordList>
         <value></value>
@@ -23038,7 +23038,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.34999796148526485</ymax>
       </wgs84extent>
       <id>v_ext_address_50461371_f0e5_46c9_81f8_4c182b00a9e9</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_address" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_address" (the_geom)</datasource>
       <shortname>nye_address</shortname>
       <keywordList>
         <value></value>
@@ -23664,7 +23664,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35012823797370629</ymax>
       </wgs84extent>
       <id>v_ext_plot_16824253_6498_4e46_a047_38297ad658c7</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_plot" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_plot" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -24185,7 +24185,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.35030931357755435</ymax>
       </wgs84extent>
       <id>v_ext_streetaxis_8e9c4012_5761_44d2_b410_878464ca38b4</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='id' srid=25831 type=MultiLineString checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_streetaxis" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='id' srid=25831 type=MultiLineString checkPrimaryKeyUnicity='1' table="ud_test"."v_ext_streetaxis" (the_geom)</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -24822,7 +24822,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="1" maxScale="100000" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Polygon" simplifyMaxScale="1" minScale="100000000" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="0" legendPlaceholderImage="">
       <id>v_plan_current_psector_06064010_ae7f_4025_bcf4_3005e9b0dae9</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='psector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_current_psector" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='psector_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_current_psector" (the_geom)</datasource>
       <shortname>current_psector</shortname>
       <keywordList>
         <value></value>
@@ -25692,7 +25692,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33772133519006786</ymax>
       </wgs84extent>
       <id>v_plan_psector_arc_e6a59222_3da7_4c3e_a715_d992bf82c7e1</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_arc" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='arc_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_arc" (the_geom)</datasource>
       <shortname>plan_psector_arc</shortname>
       <keywordList>
         <value></value>
@@ -26214,7 +26214,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33758374418643911</ymax>
       </wgs84extent>
       <id>v_plan_psector_connec_05b879ed_0c68_4455_a577_9794d2572e52</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_connec" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='connec_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_connec" (the_geom)</datasource>
       <shortname>plan_psector_connec</shortname>
       <keywordList>
         <value></value>
@@ -26755,7 +26755,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33754324024109056</ymax>
       </wgs84extent>
       <id>v_plan_psector_gully_9b33e53f_f0da_4b5f_92d2_88291ca34736</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_gully" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='gully_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_gully" (the_geom)</datasource>
       <shortname>plan_psector_gully</shortname>
       <keywordList>
         <value></value>
@@ -27247,7 +27247,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33758374418652437</ymax>
       </wgs84extent>
       <id>v_plan_psector_link_736ee21c_0eef_4094_aada_ab52509e641a</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='link_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_link" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='link_id' srid=25831 type=LineString checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_link" (the_geom)</datasource>
       <shortname>plan_psector_link</shortname>
       <keywordList>
         <value></value>
@@ -27784,7 +27784,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.33406528863881135</ymax>
       </wgs84extent>
       <id>v_plan_psector_node_2bc08b43_8656_4945_806f_d9098b70c8a2</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='node_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_node" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='node_id' srid=25831 type=Point checkPrimaryKeyUnicity='1' table="ud_test"."v_plan_psector_node" (the_geom)</datasource>
       <shortname>plan_psector_node</shortname>
       <keywordList>
         <value></value>
@@ -28263,7 +28263,7 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
     <maplayer labelsEnabled="0" maxScale="0" simplifyDrawingTol="1" simplifyAlgorithm="0" simplifyLocal="1" autoRefreshTime="0" readOnly="0" styleCategories="AllStyleCategories" type="vector" simplifyDrawingHints="1" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" symbologyReferenceScale="-1" autoRefreshEnabled="0" geometry="Polygon" simplifyMaxScale="1" minScale="5000" wkbType="MultiPolygon" hasScaleBasedVisibilityFlag="1" legendPlaceholderImage="">
       <id>ve_pol_connec_89eb130b_0cb0_405a_a2b2_9133116f7c8e</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_connec" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_connec" (the_geom)</datasource>
       <shortname>connec_poly</shortname>
       <keywordList>
         <value></value>
@@ -28624,7 +28624,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.34898886127987794</ymax>
       </wgs84extent>
       <id>ve_pol_gully_62d6bf96_9fb7_4951_81d1_feb290799438</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_gully" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_gully" (the_geom)</datasource>
       <shortname>gully_poly</shortname>
       <keywordList>
         <value></value>
@@ -28985,7 +28985,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>41.34592057006458532</ymax>
       </wgs84extent>
       <id>ve_pol_node_5b084ed1_2aea_4af8_8ca6_dbc250e7013e</id>
-      <datasource>dbname='gw35' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_node" (the_geom)</datasource>
+      <datasource>dbname='gw35' user='postgres' password='postgres' host=localhost port=5432 key='pol_id' srid=25831 type=MultiPolygon checkPrimaryKeyUnicity='1' table="ud_test"."ve_pol_node" (the_geom)</datasource>
       <shortname>node_poly</shortname>
       <keywordList>
         <value></value>
